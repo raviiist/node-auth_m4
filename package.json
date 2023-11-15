@@ -1,0 +1,25 @@
+{
+  "name": "auth_m4",
+  "version": "1.0.0",
+  "description": "I show in this video a Authentication System with OTP-One time password by using node js, express js, bcrypt, jwt, and creating by Restful API. This is completely a backend build. This is actually signup and login system. The database I used in this build is MongoDB. Watch full video to better understanding. Comment out what new things would you want in my channel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "@vonage/server-sdk": "^3.10.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "otp-generator": "^2.0.1"
+  }
+}
